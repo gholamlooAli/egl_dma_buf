@@ -165,8 +165,8 @@ int main(int argc, char **argv)
 
 	EGLSurface surface;
 	EGLImageKHR img;
-	unsigned w = 640;
-	unsigned h = 480;
+	unsigned w = 1920;
+	unsigned h = 1080;
 
 	display = get_display();
 // Bind to extensions
@@ -253,7 +253,7 @@ int main(int argc, char **argv)
 	
 	gettimeofday ( &t1 , &tz );
 	int i;
-	for (i=0;i<400;i++)
+	for (i=0;i<1000;i++)
 	{	/*
 		if(i%2==0)
 			fill2(map, 0, w, h, stride);
